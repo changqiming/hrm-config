@@ -25,3 +25,5 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 3000 # 熔断超时时长：3000ms
+            
+            
