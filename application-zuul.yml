@@ -9,6 +9,8 @@ zuul:
     sysmanage.path: /sysmanage/** # 把myUser打头的所有请求都转发给user-provider
     course.serviceid: hrm-course
     course.path: /course/**
+    fastdfs.serviceid: hrm-fastdfs
+    fastdfs.path: /fastdfs/**
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
   retryable: true #是否重试
